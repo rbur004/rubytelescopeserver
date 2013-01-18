@@ -1,8 +1,8 @@
 #!/usr/sbin/ruby
 require 'rubygems'
 require 'scanf'
-require 'screentopng.rb'
-require 'starbookEMQueue.rb'
+require_relative 'screentopng.rb'
+require_relative 'starbookEMQueue.rb'
 
 #Vixen's StarBook has an IP port that is used to upgrade the firmware.
 #Undocumented, is the use of this port to control the SX mount.

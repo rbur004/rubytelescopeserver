@@ -1,11 +1,11 @@
-#!/usr/bin/ruby1.8.6
+#!/usr/bin/ruby
 require 'rubygems'
 require 'eventmachine'
-require 'TelnetServer.rb'
-require 'vixenstarbook.rb'
-require 'webserver.rb'
-require 'telescopeServer.rb'
-require 'focus.rb'
+require_relative 'TelnetServer.rb'
+require_relative 'vixenstarbook.rb'
+require_relative 'webserver.rb'
+require_relative 'telescopeServer.rb'
+require_relative 'focus.rb'
 
 
 EventMachine.run do

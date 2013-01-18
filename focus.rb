@@ -1,4 +1,4 @@
-require 'serialQueue.rb'
+require_relative 'serialQueue.rb'
 
 
 class Focus

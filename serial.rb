@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'serialport'
-require 'readbytes'
+#require 'readbytes'
 
 class SerialBlocking
   PORT = '/dev/cu.usbserial-A6007CO3'

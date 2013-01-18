@@ -1,8 +1,8 @@
 #!/usr/bin/ruby
 require 'rubygems'
-require 'serial.rb'
+require_relative 'serial.rb'
 require 'serialport'
-require 'readbytes'
+#require 'readbytes'
 require 'eventmachine'
 
 
